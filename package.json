@@ -1,0 +1,25 @@
+{
+  "name": "webdriver-sudoku",
+  "version": "1.0.0",
+  "description": "Solves sudoku puzzles using WebDriver IO",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cindres/webdriver-sudoku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cindres/webdriver-sudoku/issues"
+  },
+  "homepage": "https://github.com/Cindres/webdriver-sudoku#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "wdio-mocha-framework": "^0.4.0",
+    "webdriverio": "^4.2.3"
+  }
+}
